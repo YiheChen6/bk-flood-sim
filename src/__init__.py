@@ -6,7 +6,10 @@
     road_clipping,
     dijkstra_multisource,
     connectivity_bfs,
+    utils_io,
+    utils_crs,
 )
+
 __all__ = [
     "raster_thresholding",
     "component_labeling",
@@ -15,4 +18,6 @@ __all__ = [
     "road_clipping",
     "dijkstra_multisource",
     "connectivity_bfs",
+    "utils_io",
+    "utils_crs",
 ]

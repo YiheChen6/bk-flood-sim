@@ -1,10 +1,11 @@
-﻿# src/utils_io.py
-import os, json
+﻿import os
+import json
 import numpy as np
 import matplotlib.pyplot as plt
 
 def ensure_dir(path: str):
-    os.makedirs(path, exist_ok=True)
+    if path and not os.path.exists(path):
+        os.makedirs(path, exist_ok=True)
 
 def save_png(array: np.ndarray, out_path: str, title: str = ""):
     ensure_dir(os.path.dirname(out_path))
