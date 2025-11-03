@@ -1,0 +1,10 @@
+{
+  "isolated_zones": [],
+  "pop_stats": {
+    "affected_cells": 2
+  },
+  "dist": {
+    "0": 0,
+    "1": 1
+  }
+}

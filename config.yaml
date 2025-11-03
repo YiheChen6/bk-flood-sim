@@ -1,0 +1,10 @@
+paths:
+  flood_depth: data/flood_depth.tif
+  population: data/population.tif
+  roads: data/road_network.geojson
+  shelters: data/shelters.csv
+  output: results/
+params:
+  dcrit: 0.5
+  neighbor_rule: 8
+  crs_target: "EPSG:3857"
